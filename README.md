@@ -2,11 +2,11 @@
 
 ## About
 
-"php": "^7.4|^8.0"
-"laravel": "9"
-Library
-"name": "arielmejiadev/larapex-charts"
-"version": "5.2.0"
+"php": "^7.4|^8.0"<br>
+"laravel": "9"<br>
+Library<br>
+"name": "arielmejiadev/larapex-charts"<br>
+"version": "5.2.0"<br>
 
 ## Steps
 
