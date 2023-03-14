@@ -10,35 +10,35 @@ Library<br>
 
 ## Steps
 
-1- Add larapex charts using composer to your project<br>
-    composer require arielmejiadev/larapex-charts<br>
+1- Add larapex charts using composer to your project<br><br>
+&nbsp;&nbsp;composer require arielmejiadev/larapex-charts<br>
 2- In terminal execute this command:<br>
-    php artisan vendor:publish --tag=larapex-charts-config<br>
+&nbsp;&nbsp;    php artisan vendor:publish --tag=larapex-charts-config<br>
 3- Create a chart<br>
-    php artisan make:chart MonthlyUsersChart<br>
+&nbsp;&nbsp;    php artisan make:chart MonthlyUsersChart<br>
 4- Then select a chart type:<br>
-    - [x] Pie Chart<br>
-    - [ ] Donut Chart<br>
-    - [ ] Radial Bar Chart<br>
-    - [ ] Polar Area Chart<br>
-    - [ ] Line Chart<br>
-    - [ ] Area Chart<br>
-    - [ ] Bar Chart<br>
-    - [ ] Horizontal Bar Chart<br>
-    - [ ] HeatMap Chart<br>
-    - [ ] Radar Chart<br>
+ &nbsp;&nbsp;   - [x] Pie Chart<br>
+ &nbsp;&nbsp;   - [ ] Donut Chart<br>
+ &nbsp;&nbsp;   - [ ] Radial Bar Chart<br>
+ &nbsp;&nbsp;   - [ ] Polar Area Chart<br>
+ &nbsp;&nbsp;   - [ ] Line Chart<br>
+ &nbsp;&nbsp;   - [ ] Area Chart<br>
+ &nbsp;&nbsp;   - [ ] Bar Chart<br>
+ &nbsp;&nbsp;  - [ ] Horizontal Bar Chart<br>
+ &nbsp;&nbsp;   - [ ] HeatMap Chart<br>
+&nbsp;&nbsp;    - [ ] Radar Chart<br>
  5- Now you are able to see the chart file in app/Charts/MonthlyUsersChart.php<br>
-    https://larapex-charts.netlify.app/2-simple-example/<br>
+ &nbsp;&nbsp;   https://larapex-charts.netlify.app/2-simple-example/<br>
 6- Create a controller<br>
-    php artisan make:controller UserController -r<br>
+&nbsp;&nbsp;    php artisan make:controller UserController -r<br>
 7- On app/Http/Controllers/UserController.php inject the chart object:<br>
-    https://larapex-charts.netlify.app/2-simple-example/<br>
+&nbsp;&nbsp;    https://larapex-charts.netlify.app/2-simple-example/<br>
 8- Add this route on routes/web.php<br>
-    https://larapex-charts.netlify.app/2-simple-example/<br>
+ &nbsp;&nbsp;   https://larapex-charts.netlify.app/2-simple-example/<br>
 9- Add the chart to a view<br>
-    Copy and paste this layout, it is using tailwindcss, but you can use any css styles.<br>
-    It adds $chart->container(), $chart->cdn() and $chart->script() methods, to render a chart.<br>
-    https://larapex-charts.netlify.app/2-simple-example/<br>
+  &nbsp;&nbsp;  Copy and paste this layout, it is using tailwindcss, but you can use any css styles.<br>
+ &nbsp;&nbsp;   It adds $chart->container(), $chart->cdn() and $chart->script() methods, to render a chart.<br>
+  &nbsp;&nbsp;  https://larapex-charts.netlify.app/2-simple-example/<br>
     
  <b>These are the steps.If you want to make different charts in your project select your respective option while making chart.</b>
 
